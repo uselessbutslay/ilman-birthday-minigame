@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mini Game Birthday Ilman</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container" id="game">
+    <h1>Happy Birthday, Baby Sayaaa Ilman! 🥳</h1>
+    <div id="questionBox">
+      <p id="question">Soalan loading...</p>
+      <div id="options"></div>
+      <p id="feedback"></p>
+    </div>
+  </div>
+
+  <div class="container" id="envelopeSection" style="display:none;">
+    <h2>💌 You've unlocked a love letter! 💌</h2>
+    <button id="openEnvelope">Open Envelope</button>
+  </div>
+
+  <div class="letter-container" id="letterSection" style="display:none;">
+    <div class="letter" id="typedLetter"></div>
+  </div>
+
+  <audio id="clapSound" src="https://www.fesliyanstudios.com/play-mp3/387"></audio>
+  <audio id="booSound" src="https://www.fesliyanstudios.com/play-mp3/6680"></audio>
+  <audio id="birthdayMusic" src="https://www.fesliyanstudios.com/play-mp3/6768" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
