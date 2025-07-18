@@ -1,0 +1,39 @@
+body {
+  font-family: Calibri, sans-serif;
+  background-color: #fff7f0;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: #fff0f5;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#options button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+#feedback {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #d9534f;
+}
+
+.letter-container {
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: #fff8fc;
+  padding: 25px;
+  border-radius: 10px;
+  font-size: 1.1em;
+  white-space: pre-line;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
